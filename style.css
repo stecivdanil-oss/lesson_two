@@ -13,14 +13,15 @@ header{
     box-shadow: 3 px 3px 9px rgb(40, 40, 61);
     border-radius: 0px 0px 15px 15px;
 }
-.conteiner{
+/* .conteiner{
     margin: 0 auto;
     max-width: 900px;
-}
+} */
 .menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 40px 0 40px;
 }
 .logo{
     font-size:52px;
@@ -38,4 +39,53 @@ opacity: 0.7;
 }
 nav a:hover{
     opacity: 1;
+}
+h1{
+    text-align: center;
+    margin-top: 32px;
+}
+h2{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background-color: rgb(80, 69, 94);
+    max-width: 240px;
+    padding-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+img:hover{
+ height: 220px;
+    width: 220px;
+    transition: 0.3s;
+}
+.films{
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 20px;
+    margin-left: 40px;
+     margin-right: 40px;
+}
+footer p{
+  text-align: center;  
+  margin-top: 40px;
+}
+footer{
+     border-top: 3px solid rgb(46, 46, 73);
+     margin-top: 40px;
+       border-radius: 15px 15px 0px 0px;
 }
